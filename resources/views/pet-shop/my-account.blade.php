@@ -7,19 +7,18 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
-		
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+
 		<!-- all css here -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <link rel="stylesheet" href="assets/css/simple-line-icons.css">
-        <link rel="stylesheet" href="assets/css/themify-icons.css">
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="assets/css/slick.css">
-        <link rel="stylesheet" href="assets/css/meanmenu.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/simple-line-icons.css">
+        <link rel="stylesheet" href="css/themify-icons.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/meanmenu.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
         <header class="header-area">
@@ -42,12 +41,12 @@
                                             <li><a href="#">Dirham (AED)</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#"><img alt="flag" src="assets/img/icon-img/en.jpg"> English  <i class="icon-arrow-down"></i></a>
+                                    <li><a href="#"><img alt="flag" src="img/icon-img/en.jpg"> English  <i class="icon-arrow-down"></i></a>
                                         <ul>
-                                            <li><a href="#"><img alt="flag" src="assets/img/icon-img/bl.jpg">Bangla </a></li>
-                                            <li><a href="#"><img alt="flag" src="assets/img/icon-img/ar.jpg">Arabic</a></li>
-                                            <li><a href="#"><img alt="flag" src="assets/img/icon-img/in.jpg">Hindi </a></li>
-                                            <li><a href="#"><img alt="flag" src="assets/img/icon-img/sp.jpg">Spanish</a></li>
+                                            <li><a href="#"><img alt="flag" src="img/icon-img/bl.jpg">Bangla </a></li>
+                                            <li><a href="#"><img alt="flag" src="img/icon-img/ar.jpg">Arabic</a></li>
+                                            <li><a href="#"><img alt="flag" src="img/icon-img/in.jpg">Hindi </a></li>
+                                            <li><a href="#"><img alt="flag" src="img/icon-img/sp.jpg">Spanish</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -61,17 +60,17 @@
                     <div class="row">
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-5">
                             <div class="logo pt-39">
-                                <a href="index.html"><img alt="" src="assets/img/logo/logo.png"></a>
+                                <a href="index.blade.php"><img alt="" src="img/logo/logo.png"></a>
                             </div>
                         </div>
                         <div class="col-xl-8 col-lg-7 d-none d-lg-block">
                             <div class="main-menu text-center">
                                 <nav>
                                     <ul>
-                                        <li><a href="index.html">HOME</a>
+                                        <li><a href="index.blade.php">HOME</a>
                                             <ul class="submenu">
                                                 <li>
-                                                    <a href="index.html">home version 1</a>
+                                                    <a href="index.blade.php">home version 1</a>
                                                 </li>
                                                 <li>
                                                     <a href="index-2.html">home version 2</a>
@@ -112,7 +111,7 @@
                                                 </li>
                                                 <li>
                                                     <ul>
-                                                        <li><a href="shop-page.html"><img alt="" src="assets/img/banner/menu-img-4.jpg"></a></li>
+                                                        <li><a href="shop-page.html"><img alt="" src="img/banner/menu-img-4.jpg"></a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -198,7 +197,7 @@
                                         <ul>
                                             <li class="single-shopping-cart">
                                                 <div class="shopping-cart-img">
-                                                    <a href="#"><img alt="" src="assets/img/cart/cart-1.jpg"></a>
+                                                    <a href="#"><img alt="" src="img/cart/cart-1.jpg"></a>
                                                 </div>
                                                 <div class="shopping-cart-title">
                                                     <h4><a href="#">Dog Calcium Food </a></h4>
@@ -211,7 +210,7 @@
                                             </li>
                                             <li class="single-shopping-cart">
                                                 <div class="shopping-cart-img">
-                                                    <a href="#"><img alt="" src="assets/img/cart/cart-2.jpg"></a>
+                                                    <a href="#"><img alt="" src="img/cart/cart-2.jpg"></a>
                                                 </div>
                                                 <div class="shopping-cart-title">
                                                     <h4><a href="#">Dog Calcium Food</a></h4>
@@ -241,7 +240,7 @@
                                     <ul class="menu-overflow">
                                         <li><a href="#">HOME</a>
                                             <ul>
-                                                <li><a href="index.html">home version 1</a></li>
+                                                <li><a href="index.blade.php">home version 1</a></li>
                                                 <li><a href="index-2.html">home version 2</a></li>
                                             </ul>
                                         </li>
@@ -332,235 +331,159 @@
                 </div>
             </div>
         </header>
-        <div class="breadcrumb-area pt-95 pb-95 bg-img" style="background-image:url(assets/img/banner/banner-2.jpg);">
+        <div class="breadcrumb-area pt-95 pb-95 bg-img" style="background-image:url(img/banner/banner-2.jpg);">
             <div class="container">
                 <div class="breadcrumb-content text-center">
-                    <h2>About Us</h2>
+                    <h2>My Account</h2>
                     <ul>
-                        <li><a href="index.html">home</a></li>
-                        <li class="active">About Us</li>
+                        <li><a href="index.blade.php">home</a></li>
+                        <li class="active">My Account</li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="about-us-area pt-100 pb-100">
+        <!-- my account start -->
+        <div class="my-account-area pt-100 pb-70">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="about-us-img pr-30 wow fadeInLeft">
-                            <img alt="" src="assets/img/banner/banner-3.png">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 d-flex align-items-center">
-                        <div class="about-us-content">
-                            <h2>About Marten</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipis elit, sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim  quis nostrud exercitat ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            <div class="about-us-list">
-                                <ul>
-                                    <li>There are many variations of passages</li>
-                                    <li>Contrary to popular belief is not simply</li>
-                                    <li>But I must explain to you how all this mistaken </li>
-                                </ul>
-                            </div>
-                            <div class="about-us-btn">
-                                <a class="btn-style" href="#">CONTACT US</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="project-count-area pb-70 pt-100 gray-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-12">
-                        <div class="single-count mb-30 text-center">
-                            <h2 class="count">18</h2>
-                            <span>Years in Business</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-12">
-                        <div class="single-count mb-30 text-center">
-                            <h2 class="count">290</h2>
-                            <span>Happy People</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-12">
-                        <div class="single-count mb-30 text-center">
-                            <h2 class="count">24</h2>
-                            <span>Billion Sales</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-12">
-                        <div class="single-count mb-30 text-center">
-                            <h2 class="count">17</h2>
-                            <span>Award Winning</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-		<div class="testimonial-area pt-90 pb-70 bg-img" style="background-image:url(assets/img/banner/banner-1.jpg);">
-		    <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 ml-auto mr-auto">
-                        <div class="testimonial-wrap">
-                            <div class="testimonial-text-slider text-center">
-                                <div class="sin-testiText">
-                                    <p>Lorem ipsum dolor sit amet, co adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita ullamco laboris nisi ut aliquip ex ea commodo</p>
+                    <div class="col-lg-12">
+                        <div class="checkout-wrapper">
+                            <div id="faq" class="panel-group">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h5 class="panel-title"><span>1</span> <a data-toggle="collapse" data-parent="#faq" href="#my-account-1">Edit your account information </a></h5>
+                                    </div>
+                                    <div id="my-account-1" class="panel-collapse collapse show">
+                                        <div class="panel-body">
+                                            <div class="billing-information-wrapper">
+                                                <div class="account-info-wrapper">
+                                                    <h4>My Account Information</h4>
+                                                    <h5>Your Personal Details</h5>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="billing-info">
+                                                            <label>First Name</label>
+                                                            <input type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="billing-info">
+                                                            <label>Last Name</label>
+                                                            <input type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <div class="billing-info">
+                                                            <label>Email Address</label>
+                                                            <input type="email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="billing-info">
+                                                            <label>Telephone</label>
+                                                            <input type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="billing-info">
+                                                            <label>Fax</label>
+                                                            <input type="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="billing-back-btn">
+                                                    <div class="billing-back">
+                                                        <a href="#"><i class="ti-arrow-up"></i> back</a>
+                                                    </div>
+                                                    <div class="billing-btn">
+                                                        <button type="submit">Continue</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="sin-testiText">
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or amro porano ja cai tomi tai go amro porano  amro porano ja cai tomi tai go  .... </p>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h5 class="panel-title"><span>2</span> <a data-toggle="collapse" data-parent="#faq" href="#my-account-2">Change your password </a></h5>
+                                    </div>
+                                    <div id="my-account-2" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="billing-information-wrapper">
+                                                <div class="account-info-wrapper">
+                                                    <h4>Change Password</h4>
+                                                    <h5>Your Password</h5>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <div class="billing-info">
+                                                            <label>Password</label>
+                                                            <input type="password">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 col-md-12">
+                                                        <div class="billing-info">
+                                                            <label>Password Confirm</label>
+                                                            <input type="password">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="billing-back-btn">
+                                                    <div class="billing-back">
+                                                        <a href="#"><i class=" ti-arrow-up"></i> back</a>
+                                                    </div>
+                                                    <div class="billing-btn">
+                                                        <button type="submit">Continue</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="sin-testiText">
-                                    <p>Lorem ipsum dolor sit amet, co adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita ullamco laboris nisi ut aliquip ex ea commodo</p>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h5 class="panel-title"><span>3</span> <a data-toggle="collapse" data-parent="#faq" href="#my-account-3">Modify your address book entries   </a></h5>
+                                    </div>
+                                    <div id="my-account-3" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="billing-information-wrapper">
+                                                <div class="account-info-wrapper">
+                                                    <h4>Address Book Entries</h4>
+                                                </div>
+                                                <div class="entries-wrapper">
+                                                    <div class="row">
+                                                        <div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+                                                            <div class="entries-info text-center">
+                                                                <p>Gerald Armstrong </p>
+                                                                <p> Address will go here. </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+                                                            <div class="entries-edit-delete text-center">
+                                                                <a class="edit" href="#">Edit</a>
+                                                                <a href="#">Delete</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="billing-back-btn">
+                                                    <div class="billing-back">
+                                                        <a href="#"><i class="ti-arrow-up"></i> back</a>
+                                                    </div>
+                                                    <div class="billing-btn">
+                                                        <button type="submit">Continue</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="sin-testiText">
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or amro porano ja cai tomi tai go amro porano  amro porano ja cai tomi tai go  .... </p>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h5 class="panel-title"><span>4</span> <a href="wishlist.html">Modify your wish list   </a></h5>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="testimonial-image-slider text-center">
-                                <div class="sin-testiImage">
-                                    <img src="assets/img/testi/3.jpg" alt="">
-                                    <h3>Samia Robiul</h3>
-                                    <h5>Customer</h5>
-                                </div>
-                                <div class="sin-testiImage">
-                                    <img src="assets/img/testi/4.jpg" alt="">
-                                    <h3>Samia Robiul</h3>
-                                    <h5>Customer</h5>
-                                </div>
-                                <div class="sin-testiImage">
-                                    <img src="assets/img/testi/3.jpg" alt="">
-                                    <h3>F H Shuvo</h3>
-                                    <h5>Developer</h5>
-                                </div>
-                                <div class="sin-testiImage">
-                                    <img src="assets/img/testi/5.jpg" alt="">
-                                    <h3>T T Rayed</h3>
-                                    <h5>CEO</h5>
-                                </div>
-                            </div>
-                            <div class="testimonial-shap">
-                                <img src="assets/img/icon-img/testi-shap.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-		<div class="team-ara pt-95 pb-70">
-            <div class="container">
-                <div class="section-title text-center mb-55">
-                    <h2>Our Team</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="team-wrapper mb-30">
-                            <div class="team-img">
-                                <a href="#">
-                                    <img src="assets/img/team/team-1.jpg" alt="">
-                                </a>
-                                <div class="team-social">
-                                    <a href="#">
-                                        <i class="ti-facebook"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-pinterest"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-twitter-alt"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-instagram"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="team-content text-center">
-                                <h4>Adam Jonson</h4>
-                                <span>Customer </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="team-wrapper mb-30">
-                            <div class="team-img">
-                                <a href="#">
-                                    <img src="assets/img/team/team-2.jpg" alt="">
-                                </a>
-                                <div class="team-social">
-                                    <a href="#">
-                                        <i class="ti-facebook"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-pinterest"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-twitter-alt"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-instagram"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="team-content text-center">
-                                <h4>Rose Evans</h4>
-                                <span>Manager </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="team-wrapper mb-30">
-                            <div class="team-img">
-                                <a href="#">
-                                    <img src="assets/img/team/team-3.jpg" alt="">
-                                </a>
-                                <div class="team-social">
-                                    <a href="#">
-                                        <i class="ti-facebook"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-pinterest"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-twitter-alt"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-instagram"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="team-content text-center">
-                                <h4>Bruce Cole</h4>
-                                <span>Customer </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="team-wrapper mb-30">
-                            <div class="team-img">
-                                <a href="#">
-                                    <img src="assets/img/team/team-4.jpg" alt="">
-                                </a>
-                                <div class="team-social">
-                                    <a href="#">
-                                        <i class="ti-facebook"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-pinterest"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-twitter-alt"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="ti-instagram"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="team-content text-center">
-                                <h4>Debra Lane</h4>
-                                <span>Manager </span>
                             </div>
                         </div>
                     </div>
@@ -576,7 +499,7 @@
                                 <div class="footer-info-wrapper">
                                     <div class="footer-logo">
                                         <a href="#">
-                                            <img src="assets/img/logo/logo-2.png" alt="">
+                                            <img src="img/logo/logo-2.png" alt="">
                                         </a>
                                     </div>
                                     <p>Lorem ipsum dolor sit amet, co adipisi elit, sed eiusmod tempor incididunt ut labore et dolore</p>
@@ -636,8 +559,8 @@
                                     </div>
                                 </div>
                                 <div class="payment-img">
-                                    <a href="index.html">
-                                        <img src="assets/img/icon-img/payment.png" alt="">
+                                    <a href="index.blade.php">
+                                        <img src="img/icon-img/payment.png" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -657,20 +580,20 @@
                 </div>
             </div>
 		</footer>
-		
-		
-		
-		
+
+
+
+
 		<!-- all js here -->
-        <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>
-        <script src="assets/js/popper.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/jquery.counterup.min.js"></script>
-        <script src="assets/js/waypoints.min.js"></script>
-        <script src="assets/js/elevetezoom.js"></script>
-        <script src="assets/js/ajax-mail.js"></script>
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
+        <script src="js/vendor/jquery-1.12.0.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/elevetezoom.js"></script>
+        <script src="js/ajax-mail.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>

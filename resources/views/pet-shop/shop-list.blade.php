@@ -7,19 +7,19 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
-		
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+
 		<!-- all css here -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <link rel="stylesheet" href="assets/css/simple-line-icons.css">
-        <link rel="stylesheet" href="assets/css/themify-icons.css">
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="assets/css/jquery-ui.css">
-        <link rel="stylesheet" href="assets/css/meanmenu.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/simple-line-icons.css">
+        <link rel="stylesheet" href="css/themify-icons.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <link rel="stylesheet" href="css/meanmenu.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
         <header class="header-area">
@@ -42,12 +42,12 @@
                                             <li><a href="#">Dirham (AED)</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#"><img alt="flag" src="assets/img/icon-img/en.jpg"> English  <i class="icon-arrow-down"></i></a>
+                                    <li><a href="#"><img alt="flag" src="img/icon-img/en.jpg"> English  <i class="icon-arrow-down"></i></a>
                                         <ul>
-                                            <li><a href="#"><img alt="flag" src="assets/img/icon-img/bl.jpg">Bangla </a></li>
-                                            <li><a href="#"><img alt="flag" src="assets/img/icon-img/ar.jpg">Arabic</a></li>
-                                            <li><a href="#"><img alt="flag" src="assets/img/icon-img/in.jpg">Hindi </a></li>
-                                            <li><a href="#"><img alt="flag" src="assets/img/icon-img/sp.jpg">Spanish</a></li>
+                                            <li><a href="#"><img alt="flag" src="img/icon-img/bl.jpg">Bangla </a></li>
+                                            <li><a href="#"><img alt="flag" src="img/icon-img/ar.jpg">Arabic</a></li>
+                                            <li><a href="#"><img alt="flag" src="img/icon-img/in.jpg">Hindi </a></li>
+                                            <li><a href="#"><img alt="flag" src="img/icon-img/sp.jpg">Spanish</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -61,17 +61,17 @@
                     <div class="row">
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-5">
                             <div class="logo pt-39">
-                                <a href="index.html"><img alt="" src="assets/img/logo/logo.png"></a>
+                                <a href="index.blade.php"><img alt="" src="img/logo/logo.png"></a>
                             </div>
                         </div>
                         <div class="col-xl-8 col-lg-7 d-none d-lg-block">
                             <div class="main-menu text-center">
                                 <nav>
                                     <ul>
-                                        <li><a href="index.html">HOME</a>
+                                        <li><a href="index.blade.php">HOME</a>
                                             <ul class="submenu">
                                                 <li>
-                                                    <a href="index.html">home version 1</a>
+                                                    <a href="index.blade.php">home version 1</a>
                                                 </li>
                                                 <li>
                                                     <a href="index-2.html">home version 2</a>
@@ -112,7 +112,7 @@
                                                 </li>
                                                 <li>
                                                     <ul>
-                                                        <li><a href="shop-page.html"><img alt="" src="assets/img/banner/menu-img-4.jpg"></a></li>
+                                                        <li><a href="shop-page.html"><img alt="" src="img/banner/menu-img-4.jpg"></a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -198,7 +198,7 @@
                                         <ul>
                                             <li class="single-shopping-cart">
                                                 <div class="shopping-cart-img">
-                                                    <a href="#"><img alt="" src="assets/img/cart/cart-1.jpg"></a>
+                                                    <a href="#"><img alt="" src="img/cart/cart-1.jpg"></a>
                                                 </div>
                                                 <div class="shopping-cart-title">
                                                     <h4><a href="#">Dog Calcium Food </a></h4>
@@ -211,7 +211,7 @@
                                             </li>
                                             <li class="single-shopping-cart">
                                                 <div class="shopping-cart-img">
-                                                    <a href="#"><img alt="" src="assets/img/cart/cart-2.jpg"></a>
+                                                    <a href="#"><img alt="" src="img/cart/cart-2.jpg"></a>
                                                 </div>
                                                 <div class="shopping-cart-title">
                                                     <h4><a href="#">Dog Calcium Food</a></h4>
@@ -241,7 +241,7 @@
                                     <ul class="menu-overflow">
                                         <li><a href="#">HOME</a>
                                             <ul>
-                                                <li><a href="index.html">home version 1</a></li>
+                                                <li><a href="index.blade.php">home version 1</a></li>
                                                 <li><a href="index-2.html">home version 2</a></li>
                                             </ul>
                                         </li>
@@ -332,12 +332,12 @@
                 </div>
             </div>
         </header>
-        <div class="breadcrumb-area pt-95 pb-95 bg-img" style="background-image:url(assets/img/banner/banner-2.jpg);">
+        <div class="breadcrumb-area pt-95 pb-95 bg-img" style="background-image:url(img/banner/banner-2.jpg);">
             <div class="container">
                 <div class="breadcrumb-content text-center">
                     <h2>Shop Page</h2>
                     <ul>
-                        <li><a href="index.html">home</a></li>
+                        <li><a href="index.blade.php">home</a></li>
                         <li class="active">Shop Page</li>
                     </ul>
                 </div>
@@ -360,19 +360,19 @@
                             </div>
                             <div class="grid-list-options">
                                 <ul class="view-mode">
-                                    <li class="active"><a href="#product-grid" data-view="product-grid"><i class="ti-layout-grid4-alt"></i></a></li>
-                                    <li><a href="#product-list" data-view="product-list"><i class="ti-align-justify"></i></a></li>
+                                    <li><a href="#product-grid" data-view="product-grid"><i class="ti-layout-grid4-alt"></i></a></li>
+                                    <li class="active"><a href="#product-list" data-view="product-list"><i class="ti-align-justify"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="grid-list-product-wrapper">
-                            <div class="product-view product-grid">
+                            <div class="product-view product-list">
                                 <div class="row">
                                     <div class="product-width col-lg-6 col-xl-4 col-md-6 col-sm-6">
                                         <div class="product-wrapper mb-10">
                                             <div class="product-img">
                                                 <a href="product-details.html">
-                                                    <img src="assets/img/product/product-4.jpg" alt="">
+                                                    <img src="img/product/product-4.jpg" alt="">
                                                 </a>
                                                 <div class="product-action">
                                                     <a title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
@@ -417,7 +417,7 @@
                                         <div class="product-wrapper mb-10">
                                             <div class="product-img">
                                                 <a href="product-details.html">
-                                                    <img src="assets/img/product/product-5.jpg" alt="">
+                                                    <img src="img/product/product-5.jpg" alt="">
                                                 </a>
                                                 <div class="product-action">
                                                     <a title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
@@ -462,7 +462,7 @@
                                         <div class="product-wrapper mb-10">
                                             <div class="product-img">
                                                 <a href="product-details.html">
-                                                    <img src="assets/img/product/product-6.jpg" alt="">
+                                                    <img src="img/product/product-6.jpg" alt="">
                                                 </a>
                                                 <div class="product-action">
                                                     <a title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
@@ -507,7 +507,7 @@
                                         <div class="product-wrapper mb-10">
                                             <div class="product-img">
                                                 <a href="product-details.html">
-                                                    <img src="assets/img/product/product-7.jpg" alt="">
+                                                    <img src="img/product/product-7.jpg" alt="">
                                                 </a>
                                                 <div class="product-action">
                                                     <a title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
@@ -552,7 +552,7 @@
                                         <div class="product-wrapper mb-10">
                                             <div class="product-img">
                                                 <a href="product-details.html">
-                                                    <img src="assets/img/product/product-8.jpg" alt="">
+                                                    <img src="img/product/product-8.jpg" alt="">
                                                 </a>
                                                 <div class="product-action">
                                                     <a title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
@@ -597,7 +597,7 @@
                                         <div class="product-wrapper mb-10">
                                             <div class="product-img">
                                                 <a href="product-details.html">
-                                                    <img src="assets/img/product/product-9.jpg" alt="">
+                                                    <img src="img/product/product-9.jpg" alt="">
                                                 </a>
                                                 <div class="product-action">
                                                     <a title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
@@ -642,7 +642,7 @@
                                         <div class="product-wrapper mb-10">
                                             <div class="product-img">
                                                 <a href="product-details.html">
-                                                    <img src="assets/img/product/product-10.jpg" alt="">
+                                                    <img src="img/product/product-10.jpg" alt="">
                                                 </a>
                                                 <div class="product-action">
                                                     <a title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
@@ -687,7 +687,7 @@
                                         <div class="product-wrapper mb-10">
                                             <div class="product-img">
                                                 <a href="product-details.html">
-                                                    <img src="assets/img/product/product-11.jpg" alt="">
+                                                    <img src="img/product/product-11.jpg" alt="">
                                                 </a>
                                                 <div class="product-action">
                                                     <a title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
@@ -732,7 +732,7 @@
                                         <div class="product-wrapper mb-10">
                                             <div class="product-img">
                                                 <a href="product-details.html">
-                                                    <img src="assets/img/product/product-4.jpg" alt="">
+                                                    <img src="img/product/product-4.jpg" alt="">
                                                 </a>
                                                 <div class="product-action">
                                                     <a title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#">
@@ -815,7 +815,7 @@
                                             <label>price : </label>
                                             <input type="text" id="amount" name="price"  placeholder="Add Your Price" />
                                         </div>
-                                        <button type="button">Filter</button> 
+                                        <button type="button">Filter</button>
                                     </div>
                                 </div>
                             </div>
@@ -879,7 +879,7 @@
                                 <div class="footer-info-wrapper">
                                     <div class="footer-logo">
                                         <a href="#">
-                                            <img src="assets/img/logo/logo-2.png" alt="">
+                                            <img src="img/logo/logo-2.png" alt="">
                                         </a>
                                     </div>
                                     <p>Lorem ipsum dolor sit amet, co adipisi elit, sed eiusmod tempor incididunt ut labore et dolore</p>
@@ -939,8 +939,8 @@
                                     </div>
                                 </div>
                                 <div class="payment-img">
-                                    <a href="index.html">
-                                        <img src="assets/img/icon-img/payment.png" alt="">
+                                    <a href="index.blade.php">
+                                        <img src="img/icon-img/payment.png" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -974,25 +974,25 @@
                             <div class="quick-view-learg-img">
                                 <div class="quick-view-tab-content tab-content">
                                     <div class="tab-pane active show fade" id="modal1" role="tabpanel">
-                                        <img src="assets/img/quick-view/l1.jpg" alt="">
+                                        <img src="img/quick-view/l1.jpg" alt="">
                                     </div>
                                     <div class="tab-pane fade" id="modal2" role="tabpanel">
-                                        <img src="assets/img/quick-view/l2.jpg" alt="">
+                                        <img src="img/quick-view/l2.jpg" alt="">
                                     </div>
                                     <div class="tab-pane fade" id="modal3" role="tabpanel">
-                                        <img src="assets/img/quick-view/l3.jpg" alt="">
+                                        <img src="img/quick-view/l3.jpg" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="quick-view-list nav" role="tablist">
                                 <a class="active" href="#modal1" data-toggle="tab" role="tab">
-                                    <img src="assets/img/quick-view/s1.jpg" alt="">
+                                    <img src="img/quick-view/s1.jpg" alt="">
                                 </a>
                                 <a href="#modal2" data-toggle="tab" role="tab">
-                                    <img src="assets/img/quick-view/s2.jpg" alt="">
+                                    <img src="img/quick-view/s2.jpg" alt="">
                                 </a>
                                 <a href="#modal3" data-toggle="tab" role="tab">
-                                    <img src="assets/img/quick-view/s3.jpg" alt="">
+                                    <img src="img/quick-view/s3.jpg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -1050,19 +1050,19 @@
                 </div>
             </div>
         </div>
-		
-		
-		
+
+
+
 		<!-- all js here -->
-        <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>
-        <script src="assets/js/popper.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/jquery.counterup.min.js"></script>
-        <script src="assets/js/waypoints.min.js"></script>
-        <script src="assets/js/elevetezoom.js"></script>
-        <script src="assets/js/ajax-mail.js"></script>
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
+        <script src="js/vendor/jquery-1.12.0.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/elevetezoom.js"></script>
+        <script src="js/ajax-mail.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>

@@ -7,18 +7,18 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
-		
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+
 		<!-- all css here -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <link rel="stylesheet" href="assets/css/simple-line-icons.css">
-        <link rel="stylesheet" href="assets/css/themify-icons.css">
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="assets/css/meanmenu.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/simple-line-icons.css">
+        <link rel="stylesheet" href="css/themify-icons.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/meanmenu.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
         <header class="header-area">
@@ -41,12 +41,12 @@
                                             <li><a href="#">Dirham (AED)</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#"><img alt="flag" src="assets/img/icon-img/en.jpg"> English  <i class="icon-arrow-down"></i></a>
+                                    <li><a href="#"><img alt="flag" src="img/icon-img/en.jpg"> English  <i class="icon-arrow-down"></i></a>
                                         <ul>
-                                            <li><a href="#"><img alt="flag" src="assets/img/icon-img/bl.jpg">Bangla </a></li>
-                                            <li><a href="#"><img alt="flag" src="assets/img/icon-img/ar.jpg">Arabic</a></li>
-                                            <li><a href="#"><img alt="flag" src="assets/img/icon-img/in.jpg">Hindi </a></li>
-                                            <li><a href="#"><img alt="flag" src="assets/img/icon-img/sp.jpg">Spanish</a></li>
+                                            <li><a href="#"><img alt="flag" src="img/icon-img/bl.jpg">Bangla </a></li>
+                                            <li><a href="#"><img alt="flag" src="img/icon-img/ar.jpg">Arabic</a></li>
+                                            <li><a href="#"><img alt="flag" src="img/icon-img/in.jpg">Hindi </a></li>
+                                            <li><a href="#"><img alt="flag" src="img/icon-img/sp.jpg">Spanish</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -60,58 +60,58 @@
                     <div class="row">
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-5">
                             <div class="logo pt-39">
-                                <a href="index.html"><img alt="" src="assets/img/logo/logo.png"></a>
+                                <a href="index.blade.php"><img alt="" src="img/logo/logo.png"></a>
                             </div>
                         </div>
                         <div class="col-xl-8 col-lg-7 d-none d-lg-block">
                             <div class="main-menu text-center">
                                 <nav>
                                     <ul>
-                                        <li><a href="index.html">HOME</a>
+                                        <li><a href="index.blade.php">HOME</a>
                                             <ul class="submenu">
                                                 <li>
-                                                    <a href="index.html">home version 1</a>
+                                                    <a href="index.blade.php">home version 1</a>
                                                 </li>
                                                 <li>
-                                                    <a href="index-2.html">home version 2</a>
+                                                    <a href="index-2.blade.php">home version 2</a>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="mega-menu-position"><a href="shop-page.html">Food</a>
+                                        <li class="mega-menu-position"><a href="shop-page.blade.php">Food</a>
                                             <ul class="mega-menu">
                                                 <li>
                                                     <ul>
                                                         <li class="mega-menu-title">Dogs Food</li>
-                                                        <li><a href="shop-page.html">Eggs</a></li>
-                                                        <li><a href="shop-page.html">Carrots</a></li>
-                                                        <li><a href="shop-page.html">Salmon fishs</a></li>
-                                                        <li><a href="shop-page.html">Peanut Butter</a></li>
-                                                        <li><a href="shop-page.html">Grapes & Raisins</a></li>
+                                                        <li><a href="shop-page.blade.php">Eggs</a></li>
+                                                        <li><a href="shop-page.blade.php">Carrots</a></li>
+                                                        <li><a href="shop-page.blade.php">Salmon fishs</a></li>
+                                                        <li><a href="shop-page.blade.php">Peanut Butter</a></li>
+                                                        <li><a href="shop-page.blade.php">Grapes & Raisins</a></li>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <ul>
                                                         <li class="mega-menu-title">Cats Food</li>
-                                                        <li><a href="shop-page.html">Meat</a></li>
-                                                        <li><a href="shop-page.html">Fish</a></li>
-                                                        <li><a href="shop-page.html">Eggs</a></li>
-                                                        <li><a href="shop-page.html">Veggies</a></li>
-                                                        <li><a href="shop-page.html">Cheese</a></li>
+                                                        <li><a href="shop-page.blade.php">Meat</a></li>
+                                                        <li><a href="shop-page.blade.php">Fish</a></li>
+                                                        <li><a href="shop-page.blade.php">Eggs</a></li>
+                                                        <li><a href="shop-page.blade.php">Veggies</a></li>
+                                                        <li><a href="shop-page.blade.php">Cheese</a></li>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <ul>
                                                         <li class="mega-menu-title">Fishs Food</li>
-                                                        <li><a href="shop-page.html">Rice</a></li>
-                                                        <li><a href="shop-page.html">Veggies</a></li>
-                                                        <li><a href="shop-page.html">Cheese</a></li>
-                                                        <li><a href="shop-page.html">wheat bran</a></li>
-                                                        <li><a href="shop-page.html">Cultivation</a></li>
+                                                        <li><a href="shop-page.blade.php">Rice</a></li>
+                                                        <li><a href="shop-page.blade.php">Veggies</a></li>
+                                                        <li><a href="shop-page.blade.php">Cheese</a></li>
+                                                        <li><a href="shop-page.blade.php">wheat bran</a></li>
+                                                        <li><a href="shop-page.blade.php">Cultivation</a></li>
                                                     </ul>
                                                 </li>
                                                 <li>
                                                     <ul>
-                                                        <li><a href="shop-page.html"><img alt="" src="assets/img/banner/menu-img-4.jpg"></a></li>
+                                                        <li><a href="shop-page.blade.php"><img alt="" src="img/banner/menu-img-4.jpg"></a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -119,52 +119,52 @@
                                         <li><a href="#">PAGES</a>
                                             <ul class="submenu">
                                                 <li>
-                                                    <a href="about-us.html">about us</a>
+                                                    <a href="about-us.blade.php">about us</a>
                                                 </li>
                                                 <li>
-                                                    <a href="shop-page.html">shop page</a>
+                                                    <a href="shop-page.blade.php">shop page</a>
                                                 </li>
                                                 <li>
-                                                    <a href="shop-list.html">shop list</a>
+                                                    <a href="shop-list.blade.php">shop list</a>
                                                 </li>
                                                 <li>
-                                                    <a href="product-details.html">product details</a>
+                                                    <a href="product-details.blade.php">product details</a>
                                                 </li>
                                                 <li>
-                                                    <a href="cart.html">cart page</a>
+                                                    <a href="cart.blade.php">cart page</a>
                                                 </li>
                                                 <li>
-                                                    <a href="checkout.html">checkout</a>
+                                                    <a href="checkout.blade.php">checkout</a>
                                                 </li>
                                                 <li>
-                                                    <a href="wishlist.html">wishlist</a>
+                                                    <a href="wishlist.blade.php">wishlist</a>
                                                 </li>
                                                 <li>
-                                                    <a href="contact.html">contact us</a>
+                                                    <a href="contact.blade.php">contact us</a>
                                                 </li>
                                                 <li>
-                                                    <a href="my-account.html">my account</a>
+                                                    <a href="my-account.blade.php">my account</a>
                                                 </li>
                                                 <li>
-                                                    <a href="login-register.html">login / register</a>
+                                                    <a href="login-register.blade.php">login / register</a>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="blog-leftsidebar.html">Blog</a>
+                                        <li><a href="blog-leftsidebar.blade.php">Blog</a>
                                             <ul class="submenu">
                                                 <li>
-                                                    <a href="blog.html">blog page</a>
+                                                    <a href="blog.blade.php">blog page</a>
                                                 </li>
                                                 <li>
-                                                    <a href="blog-leftsidebar.html">blog left sidebar</a>
+                                                    <a href="blog-leftsidebar.blade.php">blog left sidebar</a>
                                                 </li>
                                                 <li>
-                                                    <a href="blog-details.html">blog details</a>
+                                                    <a href="blog-details.blade.php">blog details</a>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="about-us.html">ABOUT</a></li>
-                                        <li><a href="contact.html">contact us</a></li>
+                                        <li><a href="about-us.blade.php">ABOUT</a></li>
+                                        <li><a href="contact.blade.php">contact us</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -186,7 +186,7 @@
                                     </div>
                                 </div>
                                 <div class="header-login same-style">
-                                    <a href="login-register.html"><i class="icon-user icons"></i></a>
+                                    <a href="login-register.blade.php"><i class="icon-user icons"></i></a>
                                 </div>
                                 <div class="header-cart same-style">
                                     <button class="icon-cart">
@@ -197,7 +197,7 @@
                                         <ul>
                                             <li class="single-shopping-cart">
                                                 <div class="shopping-cart-img">
-                                                    <a href="#"><img alt="" src="assets/img/cart/cart-1.jpg"></a>
+                                                    <a href="#"><img alt="" src="img/cart/cart-1.jpg"></a>
                                                 </div>
                                                 <div class="shopping-cart-title">
                                                     <h4><a href="#">Dog Calcium Food </a></h4>
@@ -210,7 +210,7 @@
                                             </li>
                                             <li class="single-shopping-cart">
                                                 <div class="shopping-cart-img">
-                                                    <a href="#"><img alt="" src="assets/img/cart/cart-2.jpg"></a>
+                                                    <a href="#"><img alt="" src="img/cart/cart-2.jpg"></a>
                                                 </div>
                                                 <div class="shopping-cart-title">
                                                     <h4><a href="#">Dog Calcium Food</a></h4>
@@ -227,8 +227,8 @@
                                             <h4>Total : <span class="shop-total">$260.00</span></h4>
                                         </div>
                                         <div class="shopping-cart-btn">
-                                            <a href="cart.html">view cart</a>
-                                            <a href="checkout.html">checkout</a>
+                                            <a href="cart.blade.php">view cart</a>
+                                            <a href="checkout.blade.php">checkout</a>
                                         </div>
                                     </div>
                                 </div>
@@ -240,41 +240,41 @@
                                     <ul class="menu-overflow">
                                         <li><a href="#">HOME</a>
                                             <ul>
-                                                <li><a href="index.html">home version 1</a></li>
-                                                <li><a href="index-2.html">home version 2</a></li>
+                                                <li><a href="index.blade.php">home version 1</a></li>
+                                                <li><a href="index-2.blade.php">home version 2</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">pages</a>
                                             <ul>
                                                 <li>
-                                                    <a href="about-us.html">about us</a>
+                                                    <a href="about-us.blade.php">about us</a>
                                                 </li>
                                                 <li>
-                                                    <a href="shop-page.html">shop page</a>
+                                                    <a href="shop-page.blade.php">shop page</a>
                                                 </li>
                                                 <li>
-                                                    <a href="shop-list.html">shop list</a>
+                                                    <a href="shop-list.blade.php">shop list</a>
                                                 </li>
                                                 <li>
-                                                    <a href="product-details.html">product details</a>
+                                                    <a href="product-details.blade.php">product details</a>
                                                 </li>
                                                 <li>
-                                                    <a href="cart.html">cart page</a>
+                                                    <a href="cart.blade.php">cart page</a>
                                                 </li>
                                                 <li>
-                                                    <a href="checkout.html">checkout</a>
+                                                    <a href="checkout.blade.php">checkout</a>
                                                 </li>
                                                 <li>
-                                                    <a href="wishlist.html">wishlist</a>
+                                                    <a href="wishlist.blade.php">wishlist</a>
                                                 </li>
                                                 <li>
-                                                    <a href="contact.html">contact us</a>
+                                                    <a href="contact.blade.php">contact us</a>
                                                 </li>
                                                 <li>
-                                                    <a href="my-account.html">my account</a>
+                                                    <a href="my-account.blade.php">my account</a>
                                                 </li>
                                                 <li>
-                                                    <a href="login-register.html">login / register</a>
+                                                    <a href="login-register.blade.php">login / register</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -282,29 +282,29 @@
                                             <ul>
                                                 <li><a href="#">Dogs Food</a>
                                                     <ul>
-                                                        <li><a href="shop-page.html">Grapes and Raisins</a></li>
-                                                        <li><a href="shop-page.html">Carrots</a></li>
-                                                        <li><a href="shop-page.html">Peanut Butter</a></li>
-                                                        <li><a href="shop-page.html">Salmon fishs</a></li>
-                                                        <li><a href="shop-page.html">Eggs</a></li>
+                                                        <li><a href="shop-page.blade.php">Grapes and Raisins</a></li>
+                                                        <li><a href="shop-page.blade.php">Carrots</a></li>
+                                                        <li><a href="shop-page.blade.php">Peanut Butter</a></li>
+                                                        <li><a href="shop-page.blade.php">Salmon fishs</a></li>
+                                                        <li><a href="shop-page.blade.php">Eggs</a></li>
                                                     </ul>
                                                 </li>
                                                 <li><a href="#">Cats Food</a>
                                                     <ul>
-                                                        <li><a href="shop-page.html">Meat</a></li>
-                                                        <li><a href="shop-page.html">Fish</a></li>
-                                                        <li><a href="shop-page.html">Eggs</a></li>
-                                                        <li><a href="shop-page.html">Veggies</a></li>
-                                                        <li><a href="shop-page.html">Cheese</a></li>
+                                                        <li><a href="shop-page.blade.php">Meat</a></li>
+                                                        <li><a href="shop-page.blade.php">Fish</a></li>
+                                                        <li><a href="shop-page.blade.php">Eggs</a></li>
+                                                        <li><a href="shop-page.blade.php">Veggies</a></li>
+                                                        <li><a href="shop-page.blade.php">Cheese</a></li>
                                                     </ul>
                                                 </li>
                                                 <li><a href="#">Fishs Food</a>
                                                     <ul>
-                                                        <li><a href="shop-page.html">Rice</a></li>
-                                                        <li><a href="shop-page.html">Veggies</a></li>
-                                                        <li><a href="shop-page.html">Cheese</a></li>
-                                                        <li><a href="shop-page.html">wheat bran</a></li>
-                                                        <li><a href="shop-page.html">Cultivation</a></li>
+                                                        <li><a href="shop-page.blade.php">Rice</a></li>
+                                                        <li><a href="shop-page.blade.php">Veggies</a></li>
+                                                        <li><a href="shop-page.blade.php">Cheese</a></li>
+                                                        <li><a href="shop-page.blade.php">wheat bran</a></li>
+                                                        <li><a href="shop-page.blade.php">Cultivation</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -312,17 +312,17 @@
                                         <li><a href="#">blog</a>
                                             <ul>
                                                 <li>
-                                                    <a href="blog.html">blog page</a>
+                                                    <a href="blog.blade.php">blog page</a>
                                                 </li>
                                                 <li>
-                                                    <a href="blog-leftsidebar.html">blog left sidebar</a>
+                                                    <a href="blog-leftsidebar.blade.php">blog left sidebar</a>
                                                 </li>
                                                 <li>
-                                                    <a href="blog-details.html">blog details</a>
+                                                    <a href="blog-details.blade.php">blog details</a>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html"> Contact us </a></li>
+                                        <li><a href="contact.blade.php"> Contact us </a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -331,12 +331,12 @@
                 </div>
             </div>
         </header>
-        <div class="breadcrumb-area pt-95 pb-95 bg-img" style="background-image:url(assets/img/banner/banner-2.jpg);">
+        <div class="breadcrumb-area pt-95 pb-95 bg-img" style="background-image:url(img/banner/banner-2.jpg);">
             <div class="container">
                 <div class="breadcrumb-content text-center">
                     <h2>Checkout</h2>
                     <ul>
-                        <li><a href="index.html">home</a></li>
+                        <li><a href="index.blade.php">home</a></li>
                         <li class="active">Checkout</li>
                     </ul>
                 </div>
@@ -828,7 +828,7 @@
                                 <div class="footer-info-wrapper">
                                     <div class="footer-logo">
                                         <a href="#">
-                                            <img src="assets/img/logo/logo-2.png" alt="">
+                                            <img src="img/logo/logo-2.png" alt="">
                                         </a>
                                     </div>
                                     <p>Lorem ipsum dolor sit amet, co adipisi elit, sed eiusmod tempor incididunt ut labore et dolore</p>
@@ -888,8 +888,8 @@
                                     </div>
                                 </div>
                                 <div class="payment-img">
-                                    <a href="index.html">
-                                        <img src="assets/img/icon-img/payment.png" alt="">
+                                    <a href="index.blade.php">
+                                        <img src="img/icon-img/payment.png" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -909,20 +909,20 @@
                 </div>
             </div>
 		</footer>
-		
-		
-		
-		
+
+
+
+
 		<!-- all js here -->
-        <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>
-        <script src="assets/js/popper.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/jquery.counterup.min.js"></script>
-        <script src="assets/js/waypoints.min.js"></script>
-        <script src="assets/js/elevetezoom.js"></script>
-        <script src="assets/js/ajax-mail.js"></script>
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
+        <script src="js/vendor/jquery-1.12.0.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/elevetezoom.js"></script>
+        <script src="js/ajax-mail.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
     </body>
-</html>
+</blade.php>
