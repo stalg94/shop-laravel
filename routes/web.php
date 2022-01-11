@@ -35,13 +35,14 @@ Route::get('about', [PetController::class, 'about'])->name('about');
 Route::get('product-detail', [ProductController::class, 'productDetails'])->name('product-detail');
 
 //  Route::get('product-detail/{product}', [ProductController::class, 'productDetails'])->where('product', '\d+')->name('product-detail');
-Route::get('contact-us', function () {
-    return view('pet-shop/contact');
-})->name('contact-us');
+Route::get('contact-us', [ProductController::class, 'contact'])->name('contact-us');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
+
+Route::get('add-card',[ProductController::class, 'addCard'] )->name('add-card');
+Route::get('profile',[ProductController::class, 'profile'] )->name('profile')->middleware('auth');
 
 require __DIR__.'/auth.php';
 

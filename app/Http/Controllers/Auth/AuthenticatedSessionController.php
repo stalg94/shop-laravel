@@ -17,7 +17,24 @@ class AuthenticatedSessionController extends Controller
      */
     public function create()
     {
-        return view('auth.login');
+        $sessionId = session()->getId();
+
+        \Cart::session($sessionId);
+
+
+        $cart = \Cart::getContent();
+
+
+        $sum = \Cart::getTotal('price');
+
+
+        return view('pet-shop.login-register',
+        [
+            'cart' => $cart,
+            'sum' => $sum,
+
+        ]);
+
     }
 
     /**

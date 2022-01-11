@@ -92,6 +92,45 @@
                                         </form>
                                     </div>
                                 </div>
+                                <div class="header-login same-style">
+                                    <a href="{{route('profile')}}"><i class="icon-user icons"></i></a>
+                                </div>
+                                <div class="header-cart same-style">
+                                    <button class="icon-cart">
+                                        <i class="icon-handbag"></i>
+                                        <span class="count-style">{{Cart::session(Session::getId())->getTotalQuantity()}}</span>
+                                    </button>
+
+
+                                    <div class="shopping-cart-content">
+                                        @foreach ($cart as $item)
+                                        <ul>
+                                            <li class="single-shopping-cart">
+                                                <div class="shopping-cart-img">
+                                                    <a href="#"><img alt="" src="storage/{{$item->attributes->image}}"></a>
+                                                </div>
+                                                <div class="shopping-cart-title">
+                                                    <h4><a href="#">{{$item->name}} </a></h4>
+                                                    <h6>Qty: {{$item->quantity}}</h6>
+                                                    <span>Price: {{$item->price}}</span>
+                                                </div>
+                                                <div class="shopping-cart-delete">
+                                                    <a href="#"><i class="ti-close"></i></a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        @endforeach
+
+                                        <div class="shopping-cart-total">
+                                            <h4>Shipping : <span>Free</span></h4>
+                                            <h4>Total : <span class="shop-total">{{$sum}} Eur</span></h4>
+                                        </div>
+                                        <div class="shopping-cart-btn">
+                                            <a href="cart.html">view cart</a>
+                                            <a href="checkout.html">checkout</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
