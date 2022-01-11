@@ -41,7 +41,7 @@
                             <div class="product-width col-lg-6 col-xl-4 col-md-6 col-sm-6">
                                 <div class="product-wrapper mb-10">
                                     <div class="product-img">
-                                        <a href="product-details.html">
+                                        <a href="{{route('product-detail', ['id' =>$product->id])}}">
                                             <img src="storage/{{$product->image}}" alt="">
                                         </a>
                                         <div class="product-action">
@@ -59,7 +59,7 @@
                                         </div>
                                     </div>
                                     <div class="product-content">
-                                        <h4><a href="product-details.html">{{$product->name}}</a></h4>
+                                        <h4><a href="{{route('product-detail', ['id' =>$product->id])}}">{{$product->name}}</a></h4>
                                         <div class="product-price">
                                             <span >{{$product->price}}</span>
                                         </div>

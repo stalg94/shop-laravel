@@ -32,6 +32,9 @@ Route::get('food', [ProductController::class, 'shoplist']
 // })->name('about-us');
 Route::get('about', [PetController::class, 'about'])->name('about');
 
+Route::get('product-detail', [ProductController::class, 'productDetails'])->name('product-detail');
+
+//  Route::get('product-detail/{product}', [ProductController::class, 'productDetails'])->where('product', '\d+')->name('product-detail');
 Route::get('contact-us', function () {
     return view('pet-shop/contact');
 })->name('contact-us');

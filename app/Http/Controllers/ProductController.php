@@ -28,4 +28,14 @@ class ProductController extends Controller
             'product' => $product,
         ]);
     }
+
+    public function productDetails(Request $request){
+
+        $product = Product::query()->where(['id' => $request->id])->get();
+        return view('pet-shop.product-detail',[
+            'product' => $product,
+        ]);
+    }
+
+
 }

@@ -93,7 +93,7 @@
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div class="product-wrapper mb-10">
                     <div class="product-img">
-                        <a href="product-details.">
+                        <a href="{{route('product-detail', ['id' =>$randProduct->id])}}">
                             <img src="storage/{{$randProduct->image}}" alt="">
                         </a>
                         <div class="product-action">
@@ -111,7 +111,7 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h4><a href="product-details.">{{$randProduct->name}}</a></h4>
+                        <h4><a href="{{route('product-detail', ['id' =>$randProduct->id])}}">{{$randProduct->name}}</a></h4>
                         <div class="product-price">
                             <span >{{$randProduct->price}} </span>
 
@@ -150,16 +150,6 @@
             </div>
             @endforeach
 
-            <div  class="col-lg-6 col-md-6">
-                <div class="deal-content">
-                    <div class="timer timer-style">
-                        <div data-countdown="2017/10/01"></div>
-                    </div>
-                    <div class="discount-btn mt-35">
-                        <a class="btn-style" href="#">SHOP NOW</a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
