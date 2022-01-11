@@ -17,4 +17,15 @@ class ProductController extends Controller
             'products' => $products,
         ]);
     }
+
+    public function shopindex(){
+        $randProducts = Product::query()->inRandomOrder()->get();
+
+        $product = Product::query()->select()->inRandomOrder()->limit(1)->get();
+
+        return view('pet-shop\index',[
+            'randProducts' => $randProducts,
+            'product' => $product,
+        ]);
+    }
 }

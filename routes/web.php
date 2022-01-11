@@ -19,9 +19,7 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('pet-shop/index');
 // });
-Route::get('/', function () {
-    return view('pet-shop/index');
-})->name('home');
+Route::get('/', [ProductController::class, 'shopindex'])->name('home');
 
 Route::get('/welcome', function () {
     return view('welcome');
