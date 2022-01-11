@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="css/simple-line-icons.css">
         <link rel="stylesheet" href="css/themify-icons.css">
         <link rel="stylesheet" href="css/owl.carousel.min.css">
-        <link rel="stylesheet" href="css/jquery-ui.css">
+        <link rel="stylesheet" href="css/slick.css">
         <link rel="stylesheet" href="css/meanmenu.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
@@ -757,4 +757,4 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
     </body>
-</blade.php>
+</html>

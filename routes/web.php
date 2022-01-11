@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+ use App\Http\Controllers\PetController;
+ use App\Http\Controllers\ProductController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,16 +16,35 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('pet-shop/index');
+// });
 Route::get('/', function () {
     return view('pet-shop/index');
-});
+})->name('home');
 
 Route::get('/welcome', function () {
     return view('welcome');
 });
+Route::get('food', [ProductController::class, 'shoplist']
+)->name('food');
+
+// Route::get('about', function () {
+//     return view('pet-shop/about-us');
+// })->name('about-us');
+Route::get('about', [PetController::class, 'about'])->name('about');
+
+Route::get('contact-us', function () {
+    return view('pet-shop/contact');
+})->name('contact-us');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
 require __DIR__.'/auth.php';
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
