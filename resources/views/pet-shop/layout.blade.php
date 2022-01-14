@@ -127,7 +127,7 @@
                                         </div>
                                         <div class="shopping-cart-btn">
                                             <a href="cart.html">view cart</a>
-                                            <a href="checkout.html">checkout</a>
+                                            <a href="{{route('checkout')}}">checkout</a>
                                         </div>
                                     </div>
                                 </div>

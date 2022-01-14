@@ -8,6 +8,21 @@ class PetController extends Controller
 {
     //
     public function about(){
-        return view('pet-shop.about-us');
+        $sessionId = session()->getId();
+
+        \Cart::session($sessionId);
+
+
+        $cart = \Cart::getContent();
+
+
+        $sum = \Cart::getTotal('price');
+
+        return view('pet-shop.about-us',[
+            'cart' => $cart,
+            'sum' => $sum,
+
+        ]
+    );
     }
 }

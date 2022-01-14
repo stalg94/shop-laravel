@@ -43,6 +43,9 @@ Route::get('/dashboard', function () {
 
 Route::get('add-card',[ProductController::class, 'addCard'] )->name('add-card');
 Route::get('profile',[ProductController::class, 'profile'] )->name('profile')->middleware('auth');
+Route::get('checkout',[ProductController::class, 'checkout'] )->name('checkout')->middleware('auth');
+
+Route::post('make-order',[ProductController::class, 'makeOrder'] )->name('make-order')->middleware('auth');
 
 require __DIR__.'/auth.php';
 
