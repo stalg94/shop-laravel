@@ -2,7 +2,15 @@
 
 @section('content')
 
+    @if ($flashMessage)
+    <div class="alert alert-warning" role="alert">
+        {{$flashMessage}}
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+      </div>
 
+    @endif
   <div class="login-register-area pt-95 pb-100">
             <div class="container">
                 <div class="row">

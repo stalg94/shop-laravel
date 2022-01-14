@@ -33,7 +33,7 @@ class AuthenticatedSessionController extends Controller
             'cart' => $cart,
             'sum' => $sum,
 
-        ]);
+        ])->with('flashMessage', 'You need to login or register at first!');
 
     }
 

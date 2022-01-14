@@ -54,6 +54,16 @@
                                             <div class="billing-back">
                                                 <a href="#"><i class="ti-arrow-up"></i> back</a>
                                             </div>
+
+                                            <form method="POST" action="{{ route('logout') }}">
+                                                @csrf
+                                                <div class="billing-btn">
+                                                    <button type="submit">
+                                                        {{ __('Log Out') }}
+                                                    </button>
+                                                </div>
+                                            </form>
+
                                             <div class="billing-btn">
                                                 <button type="submit">Continue</button>
                                             </div>
