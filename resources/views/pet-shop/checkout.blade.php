@@ -37,7 +37,7 @@
                                                 <div class="col-lg-6 col-md-6">
                                                     <div class="billing-info">
                                                         <label>Email Address</label>
-                                                        <input name="email" type="email" value="{{$user->email}} " readonly>
+                                                        <input name="email" type="email" value="{{$user->email}} " >
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-12 col-md-12">

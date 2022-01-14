@@ -2,12 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\OrderIn;
+use App\Mail\OrderOut;
 use App\Models\Order;
 use App\Models\Product;
 use Illuminate\Http\Request;
 use Darryldecode\Cart\CartServiceProvider;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Mail;
+
 
 class ProductController extends Controller
 {
@@ -215,6 +219,20 @@ class ProductController extends Controller
         $order->address = $request->address . ' '. $request->city . ' '. $request->state . ' ' . $request->zip;
 
         if($order->save()){
+
+            Mail::to('stalg28@gmail.com')->send(new OrderIn([
+                'cart' => $cart,
+                'sum' => $sum,
+                'user' => $user,
+            ]));
+
+            Mail::to($request->user())->send(new OrderOut([
+                'cart' => $cart,
+                'sum' => $sum,
+                'user' => $user,
+
+            ]));
+
             \Cart::clear();
 
             Session::flash('successOrder', 'Order was made succesfully!');
